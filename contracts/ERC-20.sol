@@ -3,7 +3,7 @@ pragma solidity ^0.8.18;
 
 //ERC-20: "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-// Interfaz
+// Interface
 interface IERC20 {
 
     function totalSupply() external view returns (uint256);
