@@ -5,7 +5,7 @@ import "contracts/ERC-20.sol";
 
 contract customERC20 is ERC20 {
 
-    // Constructor del Smart Contract
+    // Smart COntract Constructor
     constructor() ERC20("ZoeCoin", "ZOE"){}
 
     // Creation of new Tokens
