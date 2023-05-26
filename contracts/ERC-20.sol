@@ -53,8 +53,7 @@ contract ERC20 is IERC20 {
     function decimals() public view virtual returns (uint8){
         return 18;
     }
-
-    // Override remplaza una funcion heredada y virtual permite que se pueda realizar este comportamiento
+    
     function totalSupply() public view virtual override returns(uint256) {
         return _totalSupply;
     }
